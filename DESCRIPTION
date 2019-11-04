@@ -1,0 +1,14 @@
+Package: leaveprob
+Type: Package
+Title: Calculates Probability of Manager Leaving via Resignation vs. Termination
+Version: 0.1.0
+Author: Heather Handy
+Maintainer: Heather Handy <heatherhandy@wafflehouse.com>
+Description: This package calculates the probability of a manager leaving by resigning or by being terminated from the position.
+    A probability around 0.5 indicates approximately equal chance of resigning or being terminated. A value closer to 1.0 indicates higher 
+    chance of resigning. A value closer to 0.0 indicates higher chance of being terminated rather than resigning.
+Depends: R (>= 2.10)
+Imports: devtools, readxl
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
