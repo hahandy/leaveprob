@@ -1,0 +1,7 @@
+export("leaveprob")
+
+exportPattern("^[[:alpha:]]+")
+
+import(devtools)
+importFrom("stats", "predict", "binomial", "glm")
+import(readxl)
